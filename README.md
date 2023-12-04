@@ -21,8 +21,11 @@ I have conducted all the tests manually and created test cases covering all the 
 
 ## Postman documentation: 
 https://documenter.getpostman.com/view/31247777/2s9YeK5AQR
+## Drive link for screenshot: 
+https://drive.google.com/drive/folders/1-cPl2lgZC4xq0_poLpS_yHEcR-A2Elrv?usp=drive_link
 
 ### ScreenShot of Newman Report
+
 ![Report-Newman 1](https://github.com/iamnadim/dmoney-api-newman-b9/assets/47740217/4d1071d5-0e7d-4a27-aa5d-6cba05351433)
 
 ![Report-Newman 2](https://github.com/iamnadim/dmoney-api-newman-b9/assets/47740217/daf35d19-4171-4ad6-a290-2b74bbde4f46)
