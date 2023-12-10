@@ -1,4 +1,4 @@
-# API Testing with PostMan (dmoney-api-newman)
+# API Testing with PostMan (Dmoney)
 This is a simple API testing project where I test an API (DMoney), primarily a fintech API. 
 Users can perform all their financial transactions using it, similar to mobile banking apps (Nagad/Bkash, etc.).
 
@@ -14,7 +14,7 @@ I have conducted all the tests manually and created test cases covering all the 
 ## How to run this project:
   - Clone this project
   ``` https://github.com/iamnadim/dmoney-api-newman-b9 ```
-  - In the source root project, give Following command:
+  - In the source root project, give the Following command:
     ``` npm i ```
   - Give the Following command to run:
     ``` npm start ```
@@ -37,8 +37,14 @@ https://docs.google.com/spreadsheets/d/115Rjy7SunTg8Yq1NLsi9MHd4Tk87WAIEP1BR4xaW
 ## Bug And Improvement Report:
 https://docs.google.com/spreadsheets/d/1deG4Xh_5q-VU9Ssg_Thv1jhim3ZJLTiKbvhrB8k31KE/edit?usp=sharing
 
+## Test case are Created for the Following Scenario
 
-
-
-
-
+1. Admin creates an agent random 2 customers
+2. Admin creates random 2 customers
+3. Deposit some money from the SYSTEM account to the agent
+4. Agent deposit to any of 1 customer
+5. The customer checks the balance
+6. Customer withdraws any amount from the agent
+7. Customer sends money to the other customer
+8. Then the customer will check the statement
+9. For each transaction, assert the expected balance
